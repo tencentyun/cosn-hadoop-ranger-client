@@ -11,14 +11,15 @@
                    <value>10.0.0.8:2121</value>
            </property>
 
+           <!-- 开启kerberos后需要配置kerberos principal-->
            <property>
                    <name>qcloud.object.storage.kerberos.principal</name>
-                   <value>hadoop/_HOST@EMR-DEFRHX4M</value>
+                   <value>hadoop/_HOST@XXXXXXX</value>
            </property>
 
 
             
-           <!--**********************可选配置***************************************-->
+          <!--**********************可选配置***************************************-->
           <!-- zk上记录的ranger server的ip 地址路径, 这里使用了默认值, 配置必须与cos-ranger-service的配置一致 -->
           <property>
                    <name>qcloud.object.storage.zk.leader.ip.path</name>
